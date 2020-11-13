@@ -22,8 +22,8 @@ Please using testing until you are confident your integration is working as expe
 
 ## Table of Contents
 
-* [Authentication](#authentication)
-* [Create Shipment](#create-shipment)
+* [Authentication](#authentication) `/api/v1/gettoken`
+* [Create Shipment](#create-shipment) `/api/v1/createshipment`
   * [Into the UK](#into-the-uk)
   * [Out of the UK](#out-of-the-uk)
 * [Required Fields](#required-fields)
