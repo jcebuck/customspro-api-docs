@@ -64,7 +64,7 @@ The response will contain your token:
 ## Create Shipment
 
 Once you have passed the authentication step. You can now create shipments using your account.  
-POST to `/api/v1/gettoken`. Be sure to pass the authorization token as a header.  
+POST to `/api/v1/createshipment`. Be sure to pass the authorization token as a header.  
 The base request should look like:
 
 ```bash
