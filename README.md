@@ -1,6 +1,6 @@
-<img alt="Header image" src="https://www.channelports.co.uk/wp-content/uploads/2020/06/GettyImages-612499184.png" height="450" align="right">
-
 # CustomsPro API Documentation.
+
+<img alt="Header image" src="https://www.channelports.co.uk/wp-content/uploads/2020/06/GettyImages-612499184.png" height="450" align="right">
 
 ## Overview
 
@@ -20,6 +20,36 @@ Additional global values, used by the software, such as countries, ports, and ro
   * [Out of the UK](#out-of-the-uk)
 
 ## Authentication
+
+Authentication to the API is done using a bearer token. (HTTP Header - `Authorization: Bearer <token>`).  
+This can be retrieved by making a POST request to the API endpoint `/api/v1/gettoken` with your username and password.
+
+```bash
+curl --location --request POST 'https://roroclearances.co.uk/api/v1/gettoken' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "Username": "<YOUR_USERNAME>",
+    "Password": "<YOUR_PASSWORD>"
+}'
+```
+
+Or, alternatively, with an XML body instead and `application/xml` Content-Type:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<LoginContract>
+<Username>????</Username>
+<Password>???????</Password>
+</LoginContract>
+```
+
+The response will contain your token:
+
+```json
+{
+    "Token": "<YOUR_TOKEN>",
+}
+```
 
 ## Create Shipment
 
