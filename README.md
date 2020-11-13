@@ -260,20 +260,20 @@ Example payload is shown below.
 
 ## Required Fields
 
-* Boolean values’ default to false when omitted. If required to be true you will need to specify them.
-* CustomerReference is required and has a max length of 16 characters.
-* VehicleNumber OR TrailerNumber must be present.
-* ExpectedDate must be in the future, in the format yyyy-MM-ddTHH:mm:ss.
+* Boolean values default to false when omitted. If required to be true you will need to specify them.
+* `CustomerReference` is required and has a max length of 16 characters.
+* `VehicleNumber` OR `TrailerNumber` must be present.
+* `ExpectedDate` must be in the future, in the format `yyyy-MM-ddTHH:mm:ss`.
 * There must be at least one Consignment in the request and each Consignment must have one or more CommodityContracts (up to 99).
-* The sum of all Value fields of CommodityContracts must equal the TotalValue of the parent Consignment. This also applies to NumberOfPackages and TotalPackages.
-UKTrader, Partner, and Declarant must be present in each Consignment. Their details are not saved separately, so if you make more than one request to the CreateShipment endpoint you will need to include these details again. I.e. they cannot be referenced by ID.
-* EORI is required for UKTrader and Declarant. It should be 2 characters followed by 12 digits, e.g. GB987654312000.
-* PaymentCode can be either ‘B’ or ‘C’ and is only required when there is also a DefermentNumber.
-* FreightCurrency is only required when FreightAmount is present and greater than 0.
-* InsuranceCurrency is only required when InsuranceAmount is present and greater than 0.
-* CommodityImportCode should be 2 digits.
-* CommodityExportCode should be 8 digits.
-* PreferenceType and PreferenceCertificateNumber are only required when HasPreference is true.
+* The sum of all `Value` fields of CommodityContracts must equal the `TotalValue` of the parent Consignment. This also applies to `NumberOfPackages` and `TotalPackages`.
+* `UKTrader`, `Partner`, and `Declarant` must be present in each Consignment. Their details are not saved separately, so if you make more than one request to the CreateShipment endpoint you will need to include these details again. I.e. they cannot be referenced by ID.
+* `EORI` is required for UKTrader and Declarant. It should be 2 characters followed by 12 digits, e.g. GB987654312000.
+* `PaymentCode` can be either ‘B’ or ‘C’ and is only required when there is also a `DefermentNumber`.
+* `FreightCurrency` is only required when `FreightAmount` is present and greater than 0.
+* `InsuranceCurrency` is only required when `InsuranceAmount` is present and greater than 0.
+* `CommodityImportCode` should be 2 digits.
+* `CommodityExportCode` should be 8 digits.
+* `PreferenceType` and `PreferenceCertificateNumber` are only required when `HasPreference` is true.
 
 ## Common Errors
 
