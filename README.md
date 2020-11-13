@@ -1,6 +1,6 @@
-# CustomsPro API Documentation.
-
 <img alt="Header image" src="https://www.channelports.co.uk/wp-content/uploads/2020/06/GettyImages-612499184.png" height="450" align="right">
+
+# CustomsPro API Documentation
 
 ## Overview
 
