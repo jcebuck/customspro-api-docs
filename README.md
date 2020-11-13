@@ -1,2 +1,2 @@
-# customspro-api-docs
-Documentation for the CustomsPro API
+# CustomsPro API Documentation
+Check the wiki for the documents.
