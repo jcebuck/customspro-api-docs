@@ -12,6 +12,14 @@ Swagger documentation can be found here - https://roroclearances.co.uk/swagger/i
 
 Additional global values, used by the software, such as countries, ports, and routes can be found here - [CustomsPro Additional Information](https://docs.google.com/spreadsheets/d/1rnjnCt48oIuF_pSxEWslt95k3DMBU5Kf31FTnoaTPQo/edit?usp=sharing).
 
+There are two environments, testing and production. Their hostnames are shown below.  
+Please using testing until you are confident your integration is working as expected.
+
+### Testing
+> https://roroclearances.co.uk
+### Production
+> TBD
+
 ## Table of Contents
 
 * [Authentication](#authentication)
