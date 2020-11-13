@@ -73,91 +73,88 @@ JSON examples are shown below. For XML requests, the root node should be called 
 Example payload is shown below.
 
 ```json
-
 {
-  "IsIntoUK": true,
-  "IsNCTSShipment": false,
-  "CustomerReference": "string",
-  "VehicleNumber": "string",
-  "TrailerNumber": "string",
-  "ExpectedDate": "2021-11-10T10:28:34.793Z",
-  "PortCode": "string",
-  "RouteUKPortCode": "string",
-  "RouteNonUKPortCode": "string",
-  "Consignments": [
-    {
-      "UKTrader": {
-        "Name": "string",
-        "CountryCode": "GB",
-        "CountryName": "UNITED KINGDOM",
-        "PostCode": "string",
-        "AddressLine1": "string",
-        "AddressLine2": "string",
-        "Town": "string",
-        "EORI": "string",
-        "DefermentNumber": "string",
-        "IsDirectRepresentation": true
-      },
-      "Partner": {
-        "Name": "string",
-        "CountryCode": "GB",
-        "CountryName": "UNITED KINGDOM",
-        "PostCode": "string",
-        "AddressLine1": "string",
-        "AddressLine2": "string",
-        "Town": "string",
-        "EORI": "string",
-        "DefermentNumber": "string",
-        "IsDirectRepresentation": true
-      },
-      "Declarant": {
-        "Name": "string",
-        "CountryCode": "GB",
-        "CountryName": "UNITED KINGDOM",
-        "PostCode": "string",
-        "AddressLine1": "string",
-        "AddressLine2": "string",
-        "Town": "string",
-        "EORI": "string",
-        "DefermentNumber": "string",
-        "IsDirectRepresentation": true
-      },
-      "TotalPackages": 0,
-      "TotalGrossWeight": 0,
-      "TotalNetWeight": 0,
-      "InvoiceNumber": "string",
-      "InvoiceCurrency": "GBP",
-      "TotalValue": 0,
-      "FreightCurrency": "GBP",
-      "FreightAmount": 0,
-      "Box63NonEUPercent": 0,
-      "InsuranceCurrency": "GBP",
-      "InsuranceAmount": 0,
-      "LRN": "string",
-      "CommodityContracts": [
+    "IsIntoUK": true,
+    "IsNCTSShipment": false,
+    "CustomerReference": "string",
+    "VehicleNumber": "string",
+    "TrailerNumber": "string",
+    "ExpectedDate": "2021-11-14T10:28:34.793Z",
+    "PortCode": "string",
+    "Consignments": [
         {
-          "Product": {
-            "ProductCode": "string",
-            "Name": "string",
-            "CommodityImportCode": "string",
-            "CommodityExportCode": "string"
-          },
-          "GrossWeight": 0,
-          "NetWeight": 0,
-          "SecondQuantity": 0,
-          "ThirdQuantity": 0,
-          "Value": 0,
-          "NumberOfPackages": 0,
-          "CountryCodeOfDestination": "string",
-          "HasPreference": false,
-          "PreferenceType": "string",
-          "PreferenceCertificateNumber": "string",
-          "LicenceIdentifier": "string",
-          "LicenceNumber": "string"
+            "UKTrader": {
+                "Name": "string",
+                "CountryCode": "GB",
+                "CountryName": "UNITED KINGDOM",
+                "PostCode": "string",
+                "AddressLine1": "string",
+                "AddressLine2": "string",
+                "Town": "string",
+                "EORI": "string",
+                "DefermentNumber": "string",
+                "IsDirectRepresentation": true
+            },
+            "Partner": {
+                "Name": "string",
+                "CountryCode": "GB",
+                "CountryName": "UNITED KINGDOM",
+                "PostCode": "string",
+                "AddressLine1": "string",
+                "AddressLine2": "string",
+                "Town": "string",
+                "EORI": "string",
+                "DefermentNumber": "string",
+                "IsDirectRepresentation": true
+            },
+            "Declarant": {
+                "Name": "string",
+                "CountryCode": "GB",
+                "CountryName": "UNITED KINGDOM",
+                "PostCode": "string",
+                "AddressLine1": "string",
+                "AddressLine2": "string",
+                "Town": "string",
+                "EORI": "string",
+                "DefermentNumber": "string",
+                "IsDirectRepresentation": true
+            },
+            "TotalPackages": 0,
+            "TotalGrossWeight": 0,
+            "TotalNetWeight": 0,
+            "InvoiceNumber": "string",
+            "InvoiceCurrency": "GBP",
+            "TotalValue": 0,
+            "FreightCurrency": "GBP",
+            "FreightAmount": 0,
+            "Box63NonEUPercent": 0,
+            "InsuranceCurrency": "GBP",
+            "InsuranceAmount": 0,
+            "LRN": "string",
+            "CommodityContracts": [
+                {
+                    "Product": {
+                        "ProductCode": "string",
+                        "Name": "string",
+                        "CommodityImportCode": "string",
+                        "CommodityExportCode": "string"
+                    },
+                    "GrossWeight": 0,
+                    "NetWeight": 0,
+                    "SecondQuantity": 0,
+                    "ThirdQuantity": 0,
+                    "Value": 0,
+                    "NumberOfPackages": 0,
+                    "CountryCodeOfDestination": "string",
+                    "HasPreference": false,
+                    "PreferenceType": "string",
+                    "PreferenceCertificateNumber": "string",
+                    "LicenceIdentifier": "string",
+                    "LicenceNumber": "string"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
 ```
 
@@ -170,14 +167,14 @@ Example payload is shown below.
     "CustomerReference": "MYREFERENCE1",
     "VehicleNumber": "ABC123T",
     "TrailerNumber": "9898UY",
-    "ExpectedDate": "2020-11-14T16:20:34.991Z",
+    "ExpectedDate": "2021-11-14T16:20:34.991Z",
     "PortCode": "DOVER",
     "RouteUKPortCode": "string",
     "RouteNonUKPortCode": "string",
     "AttachmentContracts": [
         {
-        "Name": "string",
-        "Attachment": "dGVzdA=="
+            "Name": "string",
+            "Attachment": "dGVzdA=="
         }
     ],
     "Consignments": [
@@ -272,16 +269,14 @@ UKTrader, Partner, and Declarant must be present in each Consignment. Their deta
 
 ## Common Errors
 
-1. Attachment format  
+### Attachment format  
 The attachment must be a base64 encoded binary representation of the file that you pass with your request.
 
-2. Currency Codes  
+### Currency Codes  
 Currency codes must be in ISO 4217 format (https://www.iban.com/currency-codes).
 
-3. Country Codes  
+### Country Codes  
 Country codes must be in ISO 3166 format (https://www.iban.com/country-codes).
 
-4. EORI Number  
+### EORI Number  
 EORI numbers should be 2 characters followed by 12 digits, e.g. GB987654312000.
-
-
