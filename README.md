@@ -19,7 +19,7 @@ Additional global values, used by the software, such as countries, ports, and ro
   * [Into the UK](#into-the-uk)
   * [Out of the UK](#out-of-the-uk)
 * [Required Fields](#required-fields)
-* [Common Problems](#common-problems)
+* [Common Errors](#common-errors)
 
 ## Authentication
 
