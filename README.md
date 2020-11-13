@@ -270,13 +270,16 @@ UKTrader, Partner, and Declarant must be present in each Consignment. Their deta
 
 ## Common Errors
 
-1. Attachment format
- The attachment must be a base64 encoded binary representation of the file that you pass with your request.
-2. Currency Codes
- Currency codes must be in ISO 4217 format (https://www.iban.com/currency-codes).
-3. Country Codes
- Country codes must be in ISO 3166 format (https://www.iban.com/country-codes).
-4. EORI Number
- EORI numbers should be 2 characters followed by 12 digits, e.g. GB987654312000.
+1. Attachment format  
+The attachment must be a base64 encoded binary representation of the file that you pass with your request.
+
+2. Currency Codes  
+Currency codes must be in ISO 4217 format (https://www.iban.com/currency-codes).
+
+3. Country Codes  
+Country codes must be in ISO 3166 format (https://www.iban.com/country-codes).
+
+4. EORI Number  
+EORI numbers should be 2 characters followed by 12 digits, e.g. GB987654312000.
 
 
